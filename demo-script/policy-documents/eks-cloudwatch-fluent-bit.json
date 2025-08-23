@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogDelivery",
+                "logs:PutMetricFilter",
+                "logs:CreateLogStream",
+                "logs:PutResourcePolicy",
+                "logs:PutDestinationPolicy",
+                "logs:UpdateLogDelivery",
+                "logs:PutQueryDefinition",
+                "logs:PutSubscriptionFilter",
+                "logs:PutRetentionPolicy",
+                "logs:CreateLogGroup",
+                "logs:PutDestination",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
